@@ -34,7 +34,8 @@
                             (c++-mode . ggtags-find-tag-dwim)
                             (arduino-mode . ggtags-find-tag-dwim)
                             (nim-mode . nim-goto-sym)
-                            (emacs-lisp-mode . xref-find-definitions)))
+                            (emacs-lisp-mode . xref-find-definitions)
+                            (lisp-interaction-mode . xref-find-definitions)))
 
 (defvar ffinder-data-stack '())
 
